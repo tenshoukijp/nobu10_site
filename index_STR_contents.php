@@ -6,13 +6,61 @@ $content_hash = [
     'nobu_str_home' =>
         [ 'html'=>'nobu_str_home.html', 'title'=>'トップページ' , 'dir'=>''],
 
-    'nobu_mod_img_kahou' =>
-        [ 'html'=>'nobu_mod_img_kahou.html', 'title'=>'家宝グラ' , 'dir'=>''],
+    'nobu_mod_modupdater' =>
+        [ 'html'=>'nobu_mod_modupdater.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod'],
+
+    'nobu_mod_base_mod_override' =>
+        [ 'html'=>'nobu_mod_base_mod_override.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod OVERRIDE'],
+
+    'nobu_mod_base_mod_override_bushou_pic' =>
+        [ 'html'=>'nobu_mod_base_mod_override_bushou_pic.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod OVERRIDE'],
+
+    'nobu_mod_base_mod_override_kahou_pic' =>
+        [ 'html'=>'nobu_mod_base_mod_override_bushou_face.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod OVERRIDE'],
+
+    'nobu_mod_base_mod_override_bgm' =>
+        [ 'html'=>'nobu_mod_base_mod_override_bgm.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod OVERRIDE'],
+
+    'nobu_mod_base_mod_override_se' =>
+        [ 'html'=>'nobu_mod_base_mod_override_se.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod OVERRIDE'],
+
+    'nobu_mod_base_mod_override_movie' =>
+        [ 'html'=>'nobu_mod_base_mod_override_movie.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod OVERRIDE'],
+
+    'nobu_mod_base_mod_javascript' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
+    'nobu_mod_base_mod_javascript_createwindow' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript_createwindow.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
+    'nobu_mod_base_mod_javascript_destroywindow' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript_destroywindow.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
+    'nobu_mod_base_mod_javascript_font' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript_font.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
+    'nobu_mod_base_mod_javascript_bushou_pic' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript_bushou_pic.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
+    'nobu_mod_base_mod_javascript_kahou_pic' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript_bushou_face.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
+    'nobu_mod_base_mod_javascript_bgm' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript_bgm.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
+    'nobu_mod_base_mod_javascript_se' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript_se.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
+    'nobu_mod_base_mod_javascript_movie' =>
+        [ 'html'=>'nobu_mod_base_mod_javascript_movie.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod JavaScript'],
+
 ];
 
 
 
 $filetime_hash = [
+    'nobu_mod_modupdater' =>
+        './cnt_mod/ModUpdater.zip',
     'nobu_mod_img_kahou' =>
         './cnt_kahou/ITEMCG.zip',
     'nobu_data_bushoulist' =>
