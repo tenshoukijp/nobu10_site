@@ -15,6 +15,9 @@ $content_hash = [
     'nobu_mod_base_mod_override' =>
         [ 'html'=>'nobu_mod_base_mod_override.html', 'title'=>'蒼天録.mod' , 'dir'=>'OVERRIDE'],
 
+    'nobu_mod_base_mod_whats_override' =>
+        [ 'html'=>'nobu_mod_base_mod_whats_override.html', 'title'=>'蒼天録.mod' , 'dir'=>'OVERRIDE'],
+
     'nobu_mod_base_mod_override_bushou_pic' =>
         [ 'html'=>'nobu_mod_base_mod_override_bushou_pic.html', 'title'=>'蒼天録.mod' , 'dir'=>'OVERRIDE'],
 

@@ -1,0 +1,56 @@
+<div class="content-box mb-3 content-lighten">
+  <h2><i class="fa fa-gavel fa-fw"></i>武将や姫の顔グラ</h2>
+</div>
+
+<div class="content-box mb-3 content-lighten">
+  <h3>配置場所</h3>
+  <blockquote>OVERRIDE/DATA/KAOCG/0000.bmp ～ 2183.bmp</blockquote>
+</div>
+
+<div class="content-box mb-3 content-lighten">
+  <h3>KAOCG.NBXを配置することにも対応しているが...</h3>
+  <p>KAOCG.NBXに顔グラがあります、これを直接編集して、「OVERRIDE/DATA/KAOCG.NBX」として配置することにも<br>
+  もちろん対応はしていますが、<br>
+  そのような方法では「受け渡し」には便利かもしれませんが、実際に自分で顔グラを入れ替える、という意味では<br>
+何がどう入れ替わったのか管理しにくいので不便でしょう。<br>
+</div>
+
+<div class="content-box mb-3 content-lighten">
+  <h3>KAOCG.NBXの何番目が読み込まれたのか？ に対応する画像を用意する</h3>
+0000.bmp ～ 2183.bmp ファイルを配置しておけば、そのファイルが優先的に採用されます。<br>
+これは実際のゲーム内の顔番号であり、シナリオデータの顔番号でもあります。</p>
+</div>
+
+<div class="content-box mb-3 content-lighten">
+  <h3>顔グラファイルは、フルカラーの「*.png」で管理を想定</h3>
+  <p>現代の画像編集アプリケーションは、Photoshop、あるいは、Gimpなどが中心ですが、<br>
+    いずれも、「BMPファイル」は扱いにくくなっています。<br>
+    基本的に「１枚のベタ画像」あるいは「アルファがあるベタ画像」の両方とも、「PNG形式」で扱うのが標準となっています。</p>
+</div>
+
+<div class="content-box mb-3 content-lighten">
+  <h3>PNGファイル群を一括で「最適に減色して*.bmpにする」ツール「ColorReducer」</h3>
+  <p>OptPixを所持している人は、ここを読む必要はありません。次の項目に進んでください。</p>
+  <div class="card mb-3 ml-3" style="max-width: 30rem;">
+    <!-- カード本文：card-body -->
+    <div class="card-body text-center">
+      <div class="row">
+        <div class="col-12"><small>(github リポジトリ)</small></div>
+      </div>
+      <a href="https://github.com/tenshoukijp/nobu10_tool_colorreducer/releases" class="btn btn-primary"><i class="fa fa-download fa-fw"></i>ColorReducer.zip</a>
+    </div>
+  </div>
+
+  <p>これは、もともとは、iZYINS というプログラムで、「xPadie」や「Yukari」の元となるアルゴリズムと同じ減色アルゴリズムを持ったものです。<br>
+    それをModで使いやすいように、「*.png」があれば、それを一括で減色して「*.bmp」する、という機能を付け加えたものとなります。<br>
+    <ul>
+      <li>元々の iZYINSのコマンドラインとしての引数も全て受け付けます</li>
+      <li>Optpixほどではないですが、今回のようなケースですと、かなり良い減色結果が得られます</li>
+      <li>Photoshopよりはやや綺麗、Gimpとは比較にならないほど美しい仕上がりとなります</li>
+    </ul>
+  </p>
+  <h3>****.png と 同じフォルダに ColorReducer.exe を配置。実行すると減色された ****.bmp が出来上がる</h3>
+  <img src="cnt_mod/cnt_mod_colorreducer_01.png">
+  <p>蒼天録では、各々の画像に対して、それぞれのファイルが<mark>異なる「最適化256色パレット」</mark>にて減色できるため、かなり綺麗に減色できるハズです。</p>
+  <img src="cnt_mod/cnt_mod_colorreducer_02.png">
+</div>
