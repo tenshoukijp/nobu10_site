@@ -5,6 +5,9 @@ $content_hash = [
 
     'nobu_str_home' =>
         [ 'html'=>'nobu_str_home.html', 'title'=>'トップページ' , 'dir'=>''],
+        
+    'nobu_data_bushoulist' =>
+        [ 'html'=>'nobu_data_bushoulist.html', 'title'=>'トップページ' , 'dir'=>''],
 
     'nobu_mod_environment' =>
         [ 'html'=>'nobu_mod_environment.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod'],
@@ -70,6 +73,6 @@ $filetime_hash = [
     'nobu_mod_img_kahou' =>
         './cnt_kahou/ITEMCG.zip',
     'nobu_data_bushoulist' =>
-        './cnt_bushou/武将一覧.zip',
+        './cnt_bushou/n10bushoulist.zip',
 ];
 ?>
