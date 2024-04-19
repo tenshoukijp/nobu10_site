@@ -27,6 +27,9 @@ $content_hash = [
     'nobu_mod_base_mod_override_kahou_pic' =>
         [ 'html'=>'nobu_mod_base_mod_override_kahou_pic.html', 'title'=>'蒼天録.mod' , 'dir'=>'OVERRIDE'],
 
+    'nobu_mod_base_mod_override_kamon_pic' =>
+        [ 'html'=>'nobu_mod_base_mod_override_kamon_pic.html', 'title'=>'蒼天録.mod' , 'dir'=>'OVERRIDE'],
+
     'nobu_mod_base_mod_override_bgm' =>
         [ 'html'=>'nobu_mod_base_mod_override_bgm.html', 'title'=>'蒼天録.mod' , 'dir'=>'OVERRIDE'],
 
@@ -52,7 +55,7 @@ $content_hash = [
         [ 'html'=>'nobu_mod_base_mod_javascript_bushou_pic.html', 'title'=>'蒼天録.mod' , 'dir'=>'JavaScript'],
 
     'nobu_mod_base_mod_javascript_kahou_pic' =>
-        [ 'html'=>'nobu_mod_base_mod_javascript_bushou_face.html', 'title'=>'蒼天録.mod' , 'dir'=>'JavaScript'],
+        [ 'html'=>'nobu_mod_base_mod_javascript_kahou_face.html', 'title'=>'蒼天録.mod' , 'dir'=>'JavaScript'],
 
     'nobu_mod_base_mod_javascript_bgm' =>
         [ 'html'=>'nobu_mod_base_mod_javascript_bgm.html', 'title'=>'蒼天録.mod' , 'dir'=>'JavaScript'],
