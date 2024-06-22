@@ -12,14 +12,13 @@
   <p>蒼天録のBGMフォルダにある BGM/BGM**.NBX は全てフォーマットはただの WMA(Windows Media Audio) です。<br>
     ffmpeg などで WMV もしくは WMA として変換して、拡張子だけ .NBX とすれば再生できます。<br>
     .WMA への変換は各種一般的な音楽ファイル系の変換アプリケーションや ffmpeg で行える。<br>
-</div>
+</p></div>
 
 <div class="content-box mb-3 content-lighten">
  <h3>ファイル形式変換例</h3>
     <fieldset class="code">
     <legend>ffmpegでのWMAへの変換例</legend>
-    <pre class="brush:text;">
-ffmpeg -i input.m4a -acodec wmav2 -b:a 320k output.wma
+    <pre class="brush:text;">ffmpeg -i input.m4a -acodec wmav2 -b:a 320k output.wma
     </pre>
   </fieldset>
 </div>

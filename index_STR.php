@@ -1,12 +1,12 @@
 <?php
 
-require( "index_STR_contents.php" );
+require( "contents.php" );
 
 $punnyAddress = "xn--rssx72hmcj.jp-mod.net";
 
 $defaultHomePage = "nobu_str_home";
 
-$indexFileName = "index_STR.html";
+$indexFileName = "index.html";
 
 $strTitle = "蒼天録.jp";
 
