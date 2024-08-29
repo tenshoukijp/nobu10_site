@@ -15,8 +15,8 @@ $content_hash = [
     'nobu_mod_environment' =>
         [ 'html'=>'nobu_mod_environment.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod'],
 
-    'nobu_mod_modupdater' =>
-        [ 'html'=>'nobu_mod_modupdater.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod'],
+    'nobu_mod_base_mod' =>
+        [ 'html'=>'nobu_mod_base_mod.html', 'title'=>'蒼天録.mod' , 'dir'=>'蒼天録.mod'],
 
     'nobu_mod_base_mod_override' =>
         [ 'html'=>'nobu_mod_base_mod_override.html', 'title'=>'蒼天録.mod' , 'dir'=>'OVERRIDE'],
@@ -78,6 +78,8 @@ $content_hash = [
 
 $filetime_hash = [
     'nobu_mod_modupdater' =>
+        './cnt_mod/n10mod.zip',
+    'nobu_mod_base_mod' =>
         './cnt_mod/n10mod.zip',
     'nobu_mod_img_kahou' =>
         './cnt_kahou/ITEMCG.zip',
