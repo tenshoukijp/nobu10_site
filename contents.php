@@ -6,6 +6,9 @@ $content_hash = [
 	'404' =>
         [ 'html'=>'404.html', 'title'=>'ホーム' , 'dir'=>''],
 
+	'page-search' =>
+        [ 'html'=>'page-search.html', 'title'=>'ホーム' , 'dir'=>''],
+
     'nobu_str_home' =>
         [ 'html'=>'nobu_str_home.html', 'title'=>'トップページ' , 'dir'=>''],
         
